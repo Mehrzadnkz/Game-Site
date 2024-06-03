@@ -52,3 +52,9 @@
     color: #00B7FF;
     transform: scale(1.2);
 }
+.header-logo {
+    border: 1px solid red;
+    margin-left: 150px;
+}
+.header-logo img {
+}
