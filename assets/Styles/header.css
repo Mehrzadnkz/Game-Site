@@ -1,0 +1,54 @@
+.header {
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;
+    padding-bottom: 14px;
+}
+.h-span {
+    font-size: 17.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12.5px;
+    margin-left: 28vh;
+    margin-right: 60vh;
+}
+.s1{
+    transition: transform 0.4s;
+}
+.s1:hover {
+    cursor: default;
+    color: #00B7FF;
+    transform: scale(1.2);
+}
+.s2{
+    transition: transform 0.4s;
+}
+.s2:hover {
+    cursor: default;
+    color: #00B7FF;
+    transform: scale(1.2);
+}
+.s3{
+    transition: transform 0.4s;
+}
+.s3:hover {    
+    cursor: default;
+    color: #00B7FF;
+    transform: scale(1.2);
+}
+.s4{
+    transition: transform 0.4s;
+}
+.s4:hover {
+    cursor: default;
+    color: #00B7FF;
+    transform: scale(1.2);
+}
+.s5{
+    transition: transform 0.4s;
+}
+.s5:hover {
+    cursor: default;
+    color: #00B7FF;
+    transform: scale(1.2);
+}
