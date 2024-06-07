@@ -1,15 +1,17 @@
 .lw {
     border: 2px solid #ffffff64;
-    width: 45vh;
-    height: 55vh;
+    width: 35vh;
+    height: 50vh;
     margin: auto;
     margin-top: 150px;
     background-color: #ffffff64;
 }
-
+.user {
+    margin-top: 8px;
+}
 label {
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 9px;
 }
 
 input {
