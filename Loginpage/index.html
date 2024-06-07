@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LC Login</title>
-    <link rel="stylesheet" href="asstes/styles/style.css" />
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LC Login</title>
+  <link rel="stylesheet" href="asstes/styles/style.css" />
+  <link rel="stylesheet" href="asstes/styles/signin.css" />
+</head>
+
+<body>
+  <div>
+    <div class="img">
+      <form class="lw">
+        <div class="user">
+          <label for="Username">Username : </label>
+          <input type="text" class="Username" name="Username" required />
+        </div>
+        <div class="Pass">
+          <label for="Password1">Paswwrod : </label>
+          <input type="password" id="Password1" name="Password1" class="test" required oninput="Chack" />
+        </div>
+        <div class="pass2">
+          <label for="Password2">Re Paswwrod:</label>
+          <input type="password" id="Password2" name="Password2" required oninput="checkPasswordMatch ()" />
+          <div id="eror" style="color: red"></div>
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+<script src="asstes/js/global.js"></script>
+
 </html>
