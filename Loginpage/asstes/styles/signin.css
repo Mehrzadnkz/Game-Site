@@ -1,0 +1,23 @@
+.lw {
+    border: 2px solid #ffffff64;
+    width: 45vh;
+    height: 55vh;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #ffffff64;
+}
+
+label {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+input {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-top: 4px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: block;
+    background-color: #ffffff44;
+}
