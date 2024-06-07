@@ -15,18 +15,18 @@
       <form class="lw">
         <div class="user">
           <label for="Username">Username : </label>
-          <input type="text" class="Username" name="Username" required />
+          <input type="text" class="Username" name="Username" min="3" required />
         </div>
-        <div class="Pass">
+        <div class=" Pass">
           <label for="Password1">Paswwrod : </label>
-          <input type="password" id="Password1" name="Password1" class="test" required oninput="Chack" />
+          <input type="password" id="Password1" name="Password1" min="8" required oninput="Chack" />
         </div>
         <div class="pass2">
-          <label for="Password2">Re Paswwrod:</label>
-          <input type="password" id="Password2" name="Password2" required oninput="checkPasswordMatch ()" />
+          <label for="confpass">Re Paswwrod:</label>
+          <input type="password" id="confpass" name="confpass" min="8" required oninput="checkPasswordMatch ()" />
           <div id="eror" style="color: red"></div>
         </div>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" />
       </form>
     </div>
   </div>
