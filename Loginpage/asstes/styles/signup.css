@@ -1,4 +1,4 @@
-.sw {
+.sw { 
     display: none;
     border: 2px solid #ffffff64;
     width: 35vh;
@@ -6,9 +6,6 @@
     margin: auto;
     margin-top: 150px;
     background-color: #ffffff64;
-}
-.user {
-    margin-top: 100px;
 }
 .button {
     display: flex;
