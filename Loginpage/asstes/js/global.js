@@ -8,6 +8,8 @@ function checkPasswordMatch() {
         document.getElementById("eror").innerHTML = "";
     }
 }
+
+// Login - Sign Up
 function changeButton() {
     var sw = document.getElementById('sw');
     var lw = document.getElementById('lw');
@@ -18,5 +20,19 @@ function changeButton() {
     } else {
         sw.style.display = 'block';
         lw.style.display = 'none';
+    }
+}
+
+// Forget pass - Login
+function test() {
+    var lw = document.getElementById('lw');
+    var FP = document.getElementById('FP');
+
+    if (lw.style.display === 'block') {
+        lw.style.display = 'none';
+        FP.style.display = 'block';
+    } else {
+        lw.style.display = 'block';
+        FP.style.display = 'none';
     }
 }

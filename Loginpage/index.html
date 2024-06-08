@@ -5,12 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LC Login</title>
-  <link rel="stylesheet" href="asstes/styles/style.css" />
-  <link rel="stylesheet" href="asstes/styles/signup.css">
-  <link rel="stylesheet" href="asstes/styles/signin.css" />
+
+  <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="asstes/styles/style.css" />
+  <link rel="stylesheet" href="asstes/styles/signup.css">
+  <link rel="stylesheet" href="asstes/styles/signin.css" />
+  <link rel="stylesheet" href="asstes/styles/FP.css">
+
 </head>
 
 <body>
@@ -53,7 +59,17 @@
           <button class="Login">Login</button>
         </div>
         <div id="check">
-          <button class="Forget-Pass" onclick="changeButton()">Forget Password</button>
+          <button class="Forget-Pass" onclick="test()">Forget Password</button>
+        </div>
+      </form>
+      <form class="FP">
+        <div class="FP-User">
+          <label>Username : </label>
+          <input type="text" min="3" required />
+        </div>
+        <div id="fp-buttom">
+          <button class="FP-L">Login</button>
+          <button class="Forget-Pass" onclick="test()">Forget Password</button>
         </div>
       </form>
     </div>
@@ -65,3 +81,4 @@
 <!-- Class's -->
 <!-- lw = login Window --> <!-- sw = signup window -->
 <!-- Horof Aval Bozorge Baray Login Window ( Sign In ) --> <!-- Horof Aval Kochike Baray Sign Up Window -->
+<!-- FP = Forget Password -->
