@@ -6,27 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LC Login</title>
   <link rel="stylesheet" href="asstes/styles/style.css" />
+  <link rel="stylesheet" href="asstes/styles/signup.css">
   <link rel="stylesheet" href="asstes/styles/signin.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div>
     <div class="img">
-      <form class="lw">
+      <form class="sw" id="sw">
         <div class="user">
-          <label for="Username">Username : </label>
-          <input type="text" class="Username" name="Username" min="3" required />
+          <label for="username">Username : </label>
+          <input type="text" class="test" id="username" min="3" required />
         </div>
-        <div class=" Pass">
-          <label for="Password1">Paswwrod : </label>
-          <input type="password" id="Password1" name="Password1" min="8" required oninput="Chack" />
+        <div class=" pass">
+          <label for="password1">Paswwrod : </label>
+          <input type="password" class="test" id="password1" min="8" required oninput="Chack" />
         </div>
         <div class="pass2">
           <label for="confpass">Re Paswwrod:</label>
-          <input type="password" id="confpass" name="confpass" min="8" required oninput="checkPasswordMatch ()" />
+          <input type="password" class="test" id="confpass" min="8" required oninput="checkPasswordMatch ()" />
           <div id="eror" style="color: red"></div>
         </div>
-        <input type="submit" value="Submit" />
+        <div class="email">
+          <label for="email">Email : </label>
+          <input type="email" class="test" id="email" required />
+        </div>
+        <div class="button">
+          <input type="submit" class="signin" value="    Sign In" onclick="changeButton()">
+          <button class="create">Create</button>
+        </div>
+      </form>
+      <form class="lw" id="lw">
+        <div class="User">
+          <label for="Username">Username : </label>
+          <input type="text" id="Username" min="3" required />
+        </div>
+        <div class=" Pass">
+          <label for="Password">Paswwrod : </label>
+          <input type="password" min="8" required oninput="Chack" />
+        </div>
+        <div class="Button">
+          <input type="Submit" class="Signup" value=" Sign Up" onclick="changeButton()">
+          <button class="Login">Login</button>
+        </div>
+        <div id="check">
+          <button class="Forget-Pass" onclick="changeButton()">Forget Password</button>
+        </div>
       </form>
     </div>
   </div>

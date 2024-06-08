@@ -1,25 +1,38 @@
 .lw {
+    display: block;
     border: 2px solid #ffffff64;
     width: 35vh;
-    height: 50vh;
+    height: 35vh;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 200px;
     background-color: #ffffff64;
 }
 .user {
     margin-top: 8px;
 }
-label {
-    margin-top: 20px;
-    margin-left: 9px;
+.Button {
+    display: flex;
+    justify-content: space-between;
 }
-
-input {
+.Signup, .Login {
     border: 1px solid blue;
     border-radius: 5px;
-    padding-top: 4px;
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: 15px;
+    width: 52px;
+    height: 32px;
+    display: block;
+    background-color: #ffffff44;
+}
+.Login {
+    margin-right: 25px;
+}
+.Forget-Pass {
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    width: 67px;
+    height: 38px;
     display: block;
     background-color: #ffffff44;
 }
