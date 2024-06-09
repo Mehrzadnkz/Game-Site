@@ -2,7 +2,7 @@
     display: none;
     border: 2px solid #ffffff64;
     width: 35vh;
-    height: 45vh;
+    height: 40vh;
     margin: auto;
     margin-top: 150px;
     background-color: #ffffff64;
@@ -10,14 +10,13 @@
 .button {
     display: flex;
     justify-content: space-between;
-    margin: 0 20px;
 }
 .create, .signin {
     border: 1px solid blue;
     border-radius: 5px;
-    margin-top: 10px;
     width: 67px;
     height: 39px;
     display: block;
     background-color: #ffffff44;
-}   
+    margin: 10px  auto;
+}

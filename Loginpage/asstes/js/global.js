@@ -10,7 +10,7 @@ function checkPasswordMatch() {
 }
 
 // Login - Sign Up
-function changeButton() {
+function changeButton(Log) {
     var sw = document.getElementById('sw');
     var lw = document.getElementById('lw');
 
@@ -24,7 +24,7 @@ function changeButton() {
 }
 
 // Forget pass - Login
-function test() {
+function changeButton2() {
     var lw = document.getElementById('lw');
     var FP = document.getElementById('FP');
 
