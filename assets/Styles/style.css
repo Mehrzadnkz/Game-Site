@@ -2,9 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "DM Serif Text";
 }
 body {
     background-image: url(../Images/1.png);
     background-size: 100%;
+}
+.c1 {
+    /* border: 1px solid white; */
+    margin: 95px 50px;
+    padding: 50px;
+    margin-right: 80vh;
+    display: grid;
+}
+#h1 {
+    color: white;
+    font-size: 45px;
+}
+#h4 {
+    color: white;
+    margin-left: 36px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+#c-s {
+    transition: 0.75s;
+    text-align: center;
+    text-decoration-line: none;
+    color: #000000;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 75%;
+    width: 100px;
+    height: 60px;
+    background-color: #0099ff;
+}
+#c-s:hover {
+    transform: scale(1.1);
 }
