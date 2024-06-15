@@ -4,9 +4,9 @@
     box-sizing: border-box;
     font-family: "DM Serif Text";
 }
-.content {
+body {
     background-image: url(../Images/1.png);
-    background-size: 100%;
+    background-size: auto;
 }
 .c1 {
     /* border: 1px solid white; */

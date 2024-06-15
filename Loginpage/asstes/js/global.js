@@ -36,3 +36,13 @@ function changeButton2() {
         FP.style.display = 'none';
     }
 }
+
+// Audio Perwie
+function toggleElement() {
+    var audio = document.getElementById("audio");
+    if (audio.style.display === "none") {
+        audio.style.display = "block";
+    } else {
+        audio.style.display = "none";
+    }
+}
