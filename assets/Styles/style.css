@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "DM Serif Text";
 }
-body {
+.content {
     background-image: url(../Images/1.png);
     background-size: 100%;
 }
