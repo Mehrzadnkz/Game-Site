@@ -34,10 +34,6 @@ header {
     cursor: pointer;
   }
   
-  .menu-item:hover .sub-menu {
-    /* transform: scale(1); */
-  }
-  
   .sub-menu {
     position: absolute;
     top: 48px;
