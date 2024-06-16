@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/logo/Logo.png" type="image/x-icon" />
   <title>LC Login</title>
 
   <!-- Font -->
@@ -18,7 +19,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="asstes/styles/style.css" />
-  <link rel="stylesheet" href="asstes/styles/header.css">
+  <link rel="stylesheet" href="../assets/Styles/global.css">
   <link rel="stylesheet" href="asstes/styles/signup.css">
   <link rel="stylesheet" href="asstes/styles/signin.css" />
   <link rel="stylesheet" href="asstes/styles/FP.css">
@@ -101,8 +102,8 @@
       </div>
       <div class="menu-item">
         <div class="item">
-          <span>قوانین</span>
-          <i class="fa-solid fa-triangle-exclamation" style="color: #ff3c00;"></i>
+          <span onclick="window.location.href='../Ghavanin/index.html'">قوانین</span>
+          <i class=" fa-solid fa-triangle-exclamation" style="color: #ff3c00;"></i>
         </div>
       </div>
       <div class=" menu-item">
@@ -117,7 +118,7 @@
   <div>
     <div class="img">
       <div class="check">
-        <audio id="audio" controls="controls" preload="auto" style="float: right;" __idm_id__="450561">
+        <audio id="audio" controls="controls" preload="auto" style="float: right;">
           <source src="../assets/Audio/music.mp3" type="audio/mpeg">
         </audio>
         <button class="audio" onclick="toggleElement()"><i class="fa-solid fa-music fa-2xl"
@@ -166,7 +167,7 @@
       <form class="FP" id="FP">
         <div class="FP-Email">
           <label>Email : </label>
-          <input type="email" required />
+          <input type="email" placeholder="Email" required />
         </div>
         <div id="fp-button">
           <button class="Forget-Pass2" onclick="changeButton2()">Back Login</button>
