@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -8,9 +8,14 @@
     <title>Ghavanin Server</title>
 
     <!-- Font -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Slabo+27px&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="../assets/Fontawesome/css/all.css">
@@ -26,7 +31,7 @@
 
 <body>
     <!-- header -->
-    <header>
+    <header style="direction: ltr;">
         <div id="menu">
             <div class="menu-item">
                 <div class="item">
@@ -114,8 +119,27 @@
     </header>
     <!-- /header -->
     <div class="sidebar">
-        <li>Test1</li>
-        <li>Test2</li>
+        <div class="acc">
+        </div>
+        <p>Ghavanin Server</p>
+        <details class="Faction">
+            <summary style="color: #00ff9d;">Factions</summary>
+            <details class="Departments">
+                <summary style="color: #0000ff;">Departments</summary>
+                <p style="color: #003e8f;">Police</p>
+                <p style="color: #242424;">FBI</p>
+                <p style="color: #947d63;">Army</p>
+            </details>
+            <p style="color: red;">Medic Department</p>
+            <p style="color: #00ac00;">Mechainc</p>
+            <p style="color: #00d9ff;">License</p>
+            <p style="color: #c7c700;">Taxi</p>
+        </details>
+        <details class="Criminal">
+            <summary>Criminals</summary>
+            <p>Mafia</p>
+            <p>Gang</p>
+        </details>
     </div>
 </body>
 
