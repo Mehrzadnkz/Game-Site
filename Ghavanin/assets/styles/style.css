@@ -1,9 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Serif Text";
 }
+
 body {
     background-color: #969696;
+}
+
+.Bug-Goh {
+    width: 100%;
+    display: flex;
 }
