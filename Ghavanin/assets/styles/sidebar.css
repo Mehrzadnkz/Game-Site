@@ -1,40 +1,40 @@
 .sidebar {
-  /* border: 3px solid red; */
-  width: 200px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: #3b3b3b;
-  color: #ff7b00;
-  font-size: 4.75mm;
-  position: relative;
+    /* border: 3px solid red; */
+    width: 230px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3b3b;
+    color: #ff7b00;
+    font-size: 4.75mm;
+    position: relative;
 }
 
 .acc {
-  background-color: #bbbbbb;
-  /* border: 1px solid red; */
-  width: 100%;
-  height: 160px;
+    background-color: #bbbbbb;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 160px;
 }
 
 .acc img {
-  width: 60px;
-  height: 60px;
-  border-radius: 75px;
-  margin-right: 62px;
-  margin-top: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 75px;
+    margin-right: 62px;
+    margin-top: 15px;
 }
 
 .acc h4,
 .acc p {
-  margin-right: 68px;
+    margin-right: 68px;
 }
 
 details {
-  margin-right: 10px;
-  /* font-size: 5mm; */
+    margin-right: 10px;
+    /* font-size: 5mm; */
 }
 
 .Departments p {
-  margin-right: 15px;
+    margin-right: 15px;
 }
