@@ -7,15 +7,35 @@
     font-size: 5mm;
 }
 
-.Gh-Sv p {
+.Gh-1 {
+    display: none;
+}
+
+.Gh-1 p {
     /* width: 700px; */
     margin-top: 5px;
     margin: 0 30px;
     font-size: 4.9mm;
 }
 
-.Gh-Sv h3 {
+.Gh-1 h3 {
     display: flex;
     justify-content: center;
-    color: rgb(168, 0, 0);
+    color: #a80000;
+}
+
+.Gh-2 {
+    padding: 8px 30px;
+}
+
+.Gh-2 p {
+    margin-top: 5px;
+    /* margin: 0 30px; */
+    font-size: 4.9mm;
+}
+
+.Gh-2 h3 {
+    display: flex;
+    justify-content: center;
+    color: #a80000;
 }
